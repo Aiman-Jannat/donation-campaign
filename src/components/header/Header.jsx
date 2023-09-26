@@ -23,7 +23,7 @@ const Header = () => {
         
       </ul>
     </div>
-    <img className="lg:hidden h-10 " src="/src/assets/Logo.png" alt="" />
+    <img className="lg:hidden h-10 " src='https://i.ibb.co/5s6H4SR/logo.png' alt="" />
   </div>
   <div className=" hidden lg:flex h-10 font-bold justify-between py-2 items-center flex-row-reverse px-36 ">
     <ul className="flex gap-5 text-sm  ">
@@ -37,7 +37,7 @@ const Header = () => {
     isActive ? "text-[#FF444A] underline" : ""
   }>Statistics</NavLink>
     </ul>
-    <img className="h-10" src="/src/assets/Logo.png" alt="" />
+    <img className="h-10" src='https://i.ibb.co/5s6H4SR/logo.png' alt="" />
   </div>
   
 </div> 

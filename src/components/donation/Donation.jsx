@@ -24,7 +24,7 @@ const Donation = () => {
                 showDon.slice(0,leng).map(show => <ShowDonation show={show}></ShowDonation>)
             }
         </div>
-        <div className={name.length<=leng && 'hidden'||'text-center mt-10'}>
+        <div className={(name.length<=leng||showDon.length<=4) && 'hidden'||'text-center mt-10'}>
         <button onClick={()=>setLeng(name.length)} className="text-white bg-[#009444] px-5 py-1 rounded-md">Show All</button>
         </div>
         </div>

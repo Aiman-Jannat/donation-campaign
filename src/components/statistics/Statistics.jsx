@@ -12,7 +12,9 @@ const Statistics = () => {
     const have = useLoaderData();
     const local = getStoredDonations();
     let percen1 = (parseFloat(local.length)/parseFloat(have.length))*100;
+    percen1 = percen1.toFixed(2);
     let percen2 = 100-percen1;
+    percen2 = percen2.toFixed(2);
     // console.log(percen1, percen2);
     const COLORS = ['#FF444A', '#00C49F'];
     const data1 = [
