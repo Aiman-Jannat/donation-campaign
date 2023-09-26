@@ -7,7 +7,7 @@ import ShowDonation from "../ShowDonation/ShowDonation";
 const Donation = () => {
     const name = useLoaderData();
     const [showDon, setShowDon]=useState([]);
-    
+    const [leng, setLeng] = useState(4);
     useEffect(()=>{
     const storageData = getStoredDonations();
     
@@ -18,10 +18,15 @@ const Donation = () => {
     
     
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-2 px-36 gap-5">
+        <div>
+        <div className="grid grid-cols-1 lg:grid-cols-2 px-36 gap-5 mt-10">
             {
-                showDon.map(show => <ShowDonation show={show}></ShowDonation>)
+                showDon.slice(0,leng).map(show => <ShowDonation show={show}></ShowDonation>)
             }
+        </div>
+        <div className={name.length<=leng && 'hidden'||'text-center mt-10'}>
+        <button onClick={()=>setLeng(name.length)} className="text-white bg-[#009444] px-5 py-1 rounded-md">Show All</button>
+        </div>
         </div>
     );
 };
