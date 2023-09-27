@@ -9,13 +9,24 @@ import { saveDataLocalStorage } from "../../utility/localStorage";
 const ShowDetails = () => {
     const donations = useLoaderData();
     const {id} = useParams();
+    
     // const [data, setData] = useState([]);
     const handleToast=()=>{
-        saveDataLocalStorage(id);
+        const holder = localStorage.getItem('donations');
+        if(holder.includes(id))
+        {
+            toast("You have also added this donations...");
+        }else{
+            saveDataLocalStorage(id);
         toast('Great!! data successfully added to local Storage...');
+        }
+        
     }
     const specificData = donations.find(special => special.id==id);
     //console.log(specificData);
+    const btnBack={
+        backgroundColor: specificData.color_text,
+      };
     return (
         <div>
             <div className="px-10  md:px-36 mt-10 relative">
@@ -23,7 +34,7 @@ const ShowDetails = () => {
                 </div>
 
             <div className=" glassy mx-10 md:mx-36 -mt-[85px] glassy  relative  rounded-b-md shadow-lg ">
-                <button onClick={handleToast} className={`bg-${specificData.color_text} text-white my-3 md:my-5  ms-4 px-4 py-2  rounded-lg font-bold text-xl`}>Donate ${specificData.price}</button>
+                <button style={btnBack}  onClick={handleToast} className={` text-white my-3 md:my-5  ms-4 px-4 py-2  rounded-lg font-bold text-xl`}>Donate ${specificData.price}</button>
             </div>
             
             

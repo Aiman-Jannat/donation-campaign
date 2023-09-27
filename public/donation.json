@@ -4,9 +4,9 @@
       "picture": "https://www.footprintsnetwork.org/uploadimages/101_Handwash_lrg.jpg",
       "title": "Clean water for child",
       "category": "Health",
-      "color_category_bg": "bg-cyan-300",
-      "color_card_bg": "bg-cyan-100",
-      "color_text":"[#0052FF]",
+      "color_category_bg": "rgb(103 232 249)",
+      "color_card_bg": "rgb(207 250 254)",
+      "color_text":"#0052FF",
       "description":"Clean water is a cornerstone of a healthy and dignified life. For children, access to clean water is even more critical, as it directly affects their growth, development, and overall well-being. When we talk about providing clean water for a child, we are addressing not only their immediate needs but also paving the way for a brighter future.",
       "price":"123"
 
@@ -16,9 +16,9 @@
         "picture": "https://www.tcf.org.pk/wp-content/uploads/2023/07/Zakat-2022-1.jpg",
         "title": "Scholarship Funds",
         "category": "Education",
-        "color_category_bg": "bg-pink-300",
-        "color_card_bg": "bg-pink-100",
-        "color_text": "[#FF444A]",
+        "color_category_bg": "rgb(249 168 212)",
+        "color_card_bg": "rgb(252 231 243)",
+        "color_text": "#FF444A",
         "description":"Scholarship funds are a powerful tool for transforming lives and opening doors to education and opportunities. These funds are designed to provide financial support to individuals pursuing their academic dreams, regardless of their background or financial circumstances. ",
         "price":"50"
   
@@ -28,9 +28,9 @@
         "picture": "https://goodwillsouthtexas.com/wp-content/uploads/2022/10/7-Reasons-Why-You-Should-Donate-Clothing-and-Other-Items.jpg",
         "title": "General clothing fund",
         "category": "Clothing",
-        "color_category_bg": "bg-green-300",
-        "color_card_bg": "bg-green-100",
-        "color_text": "[#1fc600]",
+        "color_category_bg": "rgb(134 239 172)",
+        "color_card_bg": "rgb(220 252 231)",
+        "color_text": "#1fc600",
         "description":"A general clothing fund is a compassionate and versatile initiative aimed at providing individuals and families with essential clothing items. These funds are designed to offer assistance to those in need, ensuring that they have access to clean, appropriate, and weather-appropriate attire.",
         "price":"100"
   
@@ -40,9 +40,9 @@
         "picture": "https://images.ctfassets.net/opz1rk40r4ou/RMdt8iMhcmO9TbjEAkMRW/d521530752555f12031fe83d03dd3ec2/Good_Food_for_All_at_Dubai_Exhibition_Centre_m52651.jpg?w=2000&q=90&fm=jpg",
         "title": "Better food for everyone",
         "category": "Food",
-        "color_category_bg": "bg-violet-300",
-        "color_card_bg": "bg-violet-100",
-        "color_text": "[#7F00FF]",
+        "color_category_bg": "rgb(196 181 253)",
+        "color_card_bg": "rgb(237 233 254)",
+        "color_text": "#7F00FF",
         "description":"Better Food for Everyone represents a compelling and vision aimed at revolutionizing the way we approach food production, distribution, and consumption on a global scale. This initiative is rooted in the belief that access to nutritious, sustainable, and ethically sourced food is not only a fundamental human right ",
         "price":"150"
   
@@ -52,9 +52,9 @@
         "picture": "https://www.wvi.org/sites/default/files/2022-03/sakina%201.jpg",
         "title": "Education Materials",
         "category": "Education",
-        "color_category_bg": "bg-pink-300",
-        "color_card_bg": "bg-pink-100",
-        "color_text": "[#FF444A]",
+        "color_category_bg": "rgb(249 168 212)",
+        "color_card_bg": "rgb(252 231 243)",
+        "color_text": "#FF444A",
         "description":"Education materials donation is a benevolent and impactful initiative that focuses on providing essential learning resources to students, schools, and communities. This act of generosity aims to enhance access to quality education, promote literacy, and empower individuals with the tools they need to succeed academically.",
         "price":"180"
         
@@ -68,9 +68,9 @@
         "picture": "https://medicircle.in/uploads/2021/june2021/blood_donation.jpg",
         "title": "Blood Donation",
         "category": "Health",
-        "color_category_bg": "bg-cyan-300",
-        "color_card_bg": "bg-cyan-100",
-        "color_text": "[#0052FF]",
+        "color_category_bg": "rgb(103 232 249)",
+        "color_card_bg": "rgb(207 250 254)",
+        "color_text": "#0052FF",
         "description":"Blood donation is a life-saving act of selflessness and compassion that has a profound impact on individuals and communities. It involves voluntarily giving a portion of one's blood to be used for medical treatment and emergencies.",
         "price":"200"
   
@@ -80,9 +80,9 @@
         "picture": "https://www.communityharvest.org/wp-content/uploads/2023/02/DONATION-LIST-Still-scaled.jpg",
         "title": "Canned protein donation",
         "category": "Food",
-        "color_category_bg": "bg-violet-300",
-        "color_card_bg": "bg-violet-100",
-        "color_text": "[#7F00FF]",
+        "color_category_bg": "rgb(196 181 253)",
+        "color_card_bg": "rgb(237 233 254)",
+        "color_text": "#7F00FF",
         "description":"Canned protein donation is a thoughtful and impactful contribution to food assistance programs and community support initiatives. It involves donating canned protein sources, such as canned meats, fish, poultry, or legumes, to help ensure that individuals and families have access to essential nutrients. ",
         "price":"150"
   
@@ -92,9 +92,9 @@
         "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb5EBodOC1F5AWwHELNYdizaApD21_8-M7gg&usqp=CAU",
         "title": "Winter Clothing Donation",
         "category": "Clothing",
-        "color_category_bg": "bg-green-300",
-        "color_card_bg": "bg-green-100",
-        "color_text": "[#1fc600]",
+        "color_category_bg": "rgb(134 239 172)",
+        "color_card_bg": "rgb(220 252 231)",
+        "color_text": "#1fc600",
         "description":"A winter clothing donation drive is a heartwarming and impactful initiative that embodies the spirit of generosity and compassion. It aims to collect and distribute warm clothing items to individuals and families in need, ensuring that they are adequately prepared to face the cold winter months with comfort and dignity. ",
         "price":"120"
   
@@ -105,9 +105,9 @@
             "picture":"https://www.aroundtheworldl.com/wp-content/uploads/2010/01/IMG_8928.jpg.webp",
             "title": "Children Clothing Donation",
             "category": "Clothing",
-            "color_category_bg": "bg-green-300",
-            "color_card_bg": "bg-green-100",
-            "color_text": "[#1fc600]",
+            "color_category_bg": "rgb(134 239 172)",
+            "color_card_bg": "rgb(220 252 231)",
+            "color_text": "#1fc600",
             "description":"Donating children's clothing is a wonderful way to support families in need and help children grow up with the essentials they require. When describing a children's clothing donation, whether it's for a charitable organization, a community drive, or any other purpose, it's important to provide clear and informative details to encourage participation and ensure that the donated items are appropriate and useful. ",
             "price":"120"
       
@@ -117,9 +117,9 @@
             "picture": "https://cdn.sanity.io/images/zzw4zduo/production/dc8957f9ad7138bbcd13e32c82a323779a4dfb78-750x500.jpg?w=750&h=500&auto=format",
             "title": "Organ Donation",
             "category": "Health",
-            "color_category_bg": "bg-cyan-300",
-            "color_card_bg": "bg-cyan-100",
-            "color_text": "[#0052FF]",
+            "color_category_bg": "rgb(103 232 249)",
+            "color_card_bg": "rgb(207 250 254)",
+            "color_text": "#0052FF",
             "description":"Organ donation is a life-saving act of selflessness and compassion that has a profound impact on individuals and communities. It involves voluntarily giving a portion of one's Organ to be used for medical treatment and emergencies.",
             "price":"250"
       
@@ -129,9 +129,9 @@
             "picture": "https://uploads.prod01.london.platform-os.com/instances/812/assets/images/hero/20201012_CERES_Community%20Foods_Dried%20Fruits%20Nuts%20&%20Seeds_25281-resized.jpg?updated=1605700726",
             "title": "Dried Fruits and Nuts donation",
             "category": "Food",
-            "color_category_bg": "bg-violet-300",
-            "color_card_bg": "bg-violet-100",
-            "color_text": "[#7F00FF]",
+            "color_category_bg": "rgb(196 181 253)",
+            "color_card_bg": "rgb(237 233 254)",
+            "color_text": "#7F00FF",
             "description":"Donating dried fruits and nuts can be a nutritious and thoughtful way to support individuals and organizations in need. Whether you're contributing to a food drive, a community pantry, or a charitable organization, it's important to describe your donation clearly to encourage participation and ensure that the items meet the requirements of the recipients.",
             "price":"280"
       
@@ -141,9 +141,9 @@
             "picture": "https://www.thestatesman.com/wp-content/uploads/2021/10/QT-online-education-village.jpg",
             "title": "Digital learning initiatives",
             "category": "Education",
-            "color_category_bg": "bg-pink-300",
-            "color_card_bg": "bg-pink-100",
-            "color_text": "[#FF444A]",
+            "color_category_bg": "rgb(249 168 212)",
+            "color_card_bg": "rgb(252 231 243)",
+            "color_text": "#FF444A",
             "description":"Donating to digital learning initiatives is a meaningful way to support education and provide access to learning opportunities for individuals who may not have traditional resources available to them. When describing a donation campaign for digital learning initiatives, it's essential to convey the importance of technology in education and how contributions can make a difference. ",
             "price":"220"
             

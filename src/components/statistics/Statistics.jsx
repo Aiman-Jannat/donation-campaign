@@ -12,16 +12,18 @@ const Statistics = () => {
     const have = useLoaderData();
     const local = getStoredDonations();
     let percen1 = (parseFloat(local.length)/parseFloat(have.length))*100;
-    percen1 = percen1.toFixed(2);
+    // percen1 = percen1.toFixed(2);
+    let percen11 = parseFloat(percen1.toFixed('2'));
     let percen2 = 100-percen1;
-    percen2 = percen2.toFixed(2);
+    let percen22= parseFloat(percen2.toFixed('2'));
+    // percen2 = percen2.toFixed(2);
     // console.log(percen1, percen2);
     const COLORS = ['#FF444A', '#00C49F'];
     const data1 = [
-        { "percentage": percen1,
+        { "percentage": percen11,
         "Name": 'Your Donation'
     },
-        {"percentage": percen2,
+        {"percentage": percen22,
         "Name": 'Total Donation'
     }
 ]
@@ -57,7 +59,7 @@ const Statistics = () => {
         
         </Pie>
         </PieChart>
-        <div className='flex gap-8 justify-center items-center'>
+        <div className='flex gap-8 justify-center items-center mb-28'>
         <div className='flex gap-3 items-center' >
             <div className='bg-[#FF444A] h-4 w-12 '>
 
